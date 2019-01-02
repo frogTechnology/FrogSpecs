@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CommonHomeModule"
-  s.version      = "0.2.5"
+  s.version      = "0.2.6"
   s.summary      = "统一首页"
 
   # This description is used to generate tags and improve search results.
@@ -80,10 +80,8 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :svn => "svn://yangdongming@svn.witaction.com/IOSFrameworks/trunk/Business/CommonHomeModule/"}
-
-
-
+  s.source       = { :svn => "svn://vn.witaction.com/IOSFrameworks/trunk/Business/CommonHomeModule/trunk/CommonHomeModuleDemo" }
+# svn://huangkun@svn.witaction.com/IOSFrameworks/trunk/Business/CommonHomeModule/trunk/CommonHomeModuleDemo
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -93,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "CommonHomeModuleDemo/CommonHomeModule/Classes/**/*.{h,m}"
+  s.source_files  = "CommonHomeModule/Classes/**/*.{h,m}"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -106,7 +104,7 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-  s.resource  = "CommonHomeModuleDemo/CommonHomeModule/Assets/**/*.bundle"
+  s.resource  = "CommonHomeModule/Assets/**/*.bundle"
   # s.resources = "Resources/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
