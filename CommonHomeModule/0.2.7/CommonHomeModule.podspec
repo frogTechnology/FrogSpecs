@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CommonHomeModule"
-  s.version      = "0.2.6"
+  s.version      = "0.2.7"
   s.summary      = "统一首页"
 
   # This description is used to generate tags and improve search results.
@@ -81,7 +81,6 @@ Pod::Spec.new do |s|
   #
 
   s.source       = { :svn => "svn://svn.witaction.com/IOSFrameworks/trunk/Business/CommonHomeModule/trunk/CommonHomeModuleDemo" }
-# svn://huangkun@svn.witaction.com/IOSFrameworks/trunk/Business/CommonHomeModule/trunk/CommonHomeModuleDemo
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
